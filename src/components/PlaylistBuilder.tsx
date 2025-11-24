@@ -16,7 +16,7 @@ import type { AudioTrack } from '../types';
 interface PlaylistBuilderProps {
     playlist: PlaylistItem[];
     setPlaylist: React.Dispatch<React.SetStateAction<PlaylistItem[]>>;
-    onDownloadM3U: () => void;
+    onDownloadM3U: (basePath?: string) => void;
     onDownloadAllFiles: () => void;
     availableTracks: AudioTrack[];
     playlistName: string;
