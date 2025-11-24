@@ -1,5 +1,5 @@
 {
-    "name": "m3u-maker",
+    "name": "m3umaker",
     "compatibility_date": "2024-11-24",
     "assets": {
         "directory": "./dist"
